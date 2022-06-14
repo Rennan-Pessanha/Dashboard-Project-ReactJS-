@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import img from '../../assets/img/info.svg'
-import Burguer from '../../assets/img/Burguer.svg'
 
 export const DashC1 = styled.div`
 
-display: inline-block;
+display: inline-flex;
 height: 300px;
 width: 650px;
 background-color: #ffff;
@@ -23,7 +22,7 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 
 export const DashC2 = styled.div`
 
-display: inline-block;
+display: inline-flex;
 height: 300px;
 width: 650px;
 background-color: #ffff;
@@ -52,19 +51,44 @@ background-repeat: no-repeat;
 height: 30px;
 width: 20px;
 position: relative;
-top: 5%;
+top: 7%;
 left: 4%;
 cursor: pointer;
 `
 
-export const Burgue = styled.div`
-background-image: url(${Burguer});
-display: inline-flex;
-background-repeat: no-repeat;
-height: 30px;
-width: 20px;
-position: relative;
-top: 5%;
-left: 73%;
-cursor: pointer;
+export const Barra = styled.div`
+display:block;
+margin-top: 4%;
+margin-left: -10%;
+
+@media (max-width: 1337px) {
+    width: 50%;
+    margin-top: -2%;
+    margin-left: -1%;
+}
+
+@media (max-width: 652px) {
+    width: 38%;
+    margin-top: -2%;
+    margin-left: -1%;
+}
+
+`
+
+export const Scatter = styled.div`
+display:block;
+margin-top: 5%;
+margin-left: -10%;
+
+@media (max-width: 1337px) {
+    width: 50%;
+    margin-top: -1%;
+    margin-left: -1%;
+}
+
+@media (max-width: 652px) {
+    width: 40%;
+    margin-top: -2%;
+    margin-left: -1%;
+}
 `
