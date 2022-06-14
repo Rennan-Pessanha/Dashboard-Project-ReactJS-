@@ -77,7 +77,7 @@ margin-left: -10%;
 
 export const Scatter = styled.div`
 display:block;
-margin-top: 5%;
+margin-top: 4%;
 margin-left: -10%;
 
 @media (max-width: 1337px) {

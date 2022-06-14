@@ -24,7 +24,7 @@ class DashBar extends Component {
                 enabled: false
               },
             xaxis: {
-                categories: ['Brazil', 'Argentina', 'United Kingdom', 'Noruegua', 'Tailândia', 'Angola', 'Japão',
+                categories: ['Brasil', 'Argentina', 'United Kingdom', 'Peru', 'Tailândia', 'Angola', 'Japão',
                   'Egito', 'Chile', 'Colômbia'
             ]},
         }
