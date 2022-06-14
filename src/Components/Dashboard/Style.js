@@ -68,7 +68,7 @@ margin-left: -10%;
 }
 
 @media (max-width: 652px) {
-    width: 50%;
+    width: 38%;
     margin-top: -2%;
     margin-left: -1%;
 }
@@ -87,7 +87,7 @@ margin-left: -10%;
 }
 
 @media (max-width: 652px) {
-    width: 50%;
+    width: 38%;
     margin-top: -2%;
     margin-left: -1%;
 }
