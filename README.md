@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `Acesse o Projeto`
 
 Acesse o projeto clicando nesse link.\
 Acessar: https://dashboard-rennan.herokuapp.com/.
